@@ -67,9 +67,3 @@ def main(movie_name):
         else:
                 recommendations = recommend_movies(movie_name, find_movie, combine_result, transform_result)
                 return recommendations
-
-list_movies=get_data()
-Easy_list=combine_data(list_movies)
-Sparse_Transform=transform_data(Easy_list,list_movies)
-result=recommend_movies('life of pi',list_movies,Easy_list,Sparse_Transform)
-print(result)
