@@ -1,2 +1,2 @@
 # Movie-Recommation-SYS
-Movie Recommendations Project -Django
+Movie Recommendations Project 
